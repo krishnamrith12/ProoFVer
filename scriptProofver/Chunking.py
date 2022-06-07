@@ -7,7 +7,7 @@ import json
 from tqdm import tqdm
 
 tagger = SequenceTagger.load("flair/chunk-english")
-f = open("../feverDataset/shared_task_dev.jsonl").readlines()
+f = open("< path to fever file>.jsonl").readlines()
 
 mutDict = list()
 for item in tqdm(f):
