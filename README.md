@@ -7,11 +7,14 @@ ProoFVer is a proof system, based on natural logic, for explainable fact verific
 
 For training data generation:
 
-First use the chunker, with the following code
+First use the chunker, with the following script
 
 ``` scriptProofver/Chunking.py```
 
 
+Then run the aligner
+
+```scriptProofver/Alignment.py```
 ## Main dependencies
 * python>=3.7
 * pytorch>=1.6
